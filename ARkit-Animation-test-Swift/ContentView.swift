@@ -7,6 +7,7 @@
 
 import SwiftUI
 import RealityKit
+import ARKit
 
 struct ContentView : View {
     var body: some View {
@@ -20,18 +21,19 @@ struct ARViewContainer: UIViewRepresentable {
         
         let arView = ARView(frame: .zero)
         
-        // Load the "Box" scene from the "Experience" Reality File
-        let boxAnchor = try! Experience.loadBox()
+        arView.addGestureRecognizer(UITapGestureRecognizer(target: context.coordinator, action: #selector(Coordinator.handleTap)))
         
-        // Add the box anchor to the scene
-        arView.scene.anchors.append(boxAnchor)
+        context.coordinator.view = arView
+        arView.session.delegate = context.coordinator
         
         return arView
-        
+    }
+    
+    func makeCoordinator() -> Coordinator {
+        Coordinator()
     }
     
     func updateUIView(_ uiView: ARView, context: Context) {}
-    
 }
 
 #if DEBUG

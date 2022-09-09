@@ -12,6 +12,8 @@
 		9CA2956C28CBF53900642FA0 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2956B28CBF53900642FA0 /* Experience.rcproject */; };
 		9CA2956E28CBF53900642FA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA2956D28CBF53900642FA0 /* Assets.xcassets */; };
 		9CA2957128CBF53900642FA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA2957028CBF53900642FA0 /* Preview Assets.xcassets */; };
+		9CA2957828CBF59E00642FA0 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2957728CBF59E00642FA0 /* Coordinator.swift */; };
+		9CA2957A28CBF72D00642FA0 /* LunarRover.reality in Resources */ = {isa = PBXBuildFile; fileRef = 9CA2957928CBF65E00642FA0 /* LunarRover.reality */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		9CA2956B28CBF53900642FA0 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		9CA2956D28CBF53900642FA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CA2957028CBF53900642FA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9CA2957728CBF59E00642FA0 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		9CA2957928CBF65E00642FA0 /* LunarRover.reality */ = {isa = PBXFileReference; lastKnownFileType = file; path = LunarRover.reality; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			isa = PBXGroup;
 			children = (
 				9CA2956728CBF53900642FA0 /* AppDelegate.swift */,
+				9CA2957728CBF59E00642FA0 /* Coordinator.swift */,
+				9CA2957928CBF65E00642FA0 /* LunarRover.reality */,
 				9CA2956928CBF53900642FA0 /* ContentView.swift */,
 				9CA2956B28CBF53900642FA0 /* Experience.rcproject */,
 				9CA2956D28CBF53900642FA0 /* Assets.xcassets */,
@@ -130,6 +136,7 @@
 			files = (
 				9CA2957128CBF53900642FA0 /* Preview Assets.xcassets in Resources */,
 				9CA2956E28CBF53900642FA0 /* Assets.xcassets in Resources */,
+				9CA2957A28CBF72D00642FA0 /* LunarRover.reality in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CA2957828CBF59E00642FA0 /* Coordinator.swift in Sources */,
 				9CA2956A28CBF53900642FA0 /* ContentView.swift in Sources */,
 				9CA2956828CBF53900642FA0 /* AppDelegate.swift in Sources */,
 				9CA2956C28CBF53900642FA0 /* Experience.rcproject in Sources */,
